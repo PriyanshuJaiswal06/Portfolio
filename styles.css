@@ -1,0 +1,169 @@
+:root {
+    --bg: #fff6f6;
+    --primary: #f8c8c8;
+    --secondary: #f4a9a8;
+    --accent: #e5989b;
+    --text: #4a3f3f;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: 'Dancing Script', cursive;
+
+}
+/* * {
+    box-sizing: border-box;
+    
+    
+    
+} */
+
+h1 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--secondary);
+    
+}
+.icon{
+    display: flex;
+    place-items: center;
+    padding: 4px;
+}
+
+.nav_links {
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 1px;
+    list-style: none;
+    display: flex;
+    gap: 3px;
+    padding-right: 3px;
+    background-color: var(--secondary);
+
+}
+.nav_links li a {
+    text-decoration: none;
+}
+.button {
+    background-color: var(--accent);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-family: 'Poppins', sans-serif;
+    transition: 0.3s ease;
+}
+.button:hover {
+    background-color: #d6646e;
+    /* slightly darker blush */
+}
+
+
+.home_outer{
+    background-color: var(--primary);
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.pfp{
+    border-radius: 50%;
+    padding: 100px;
+    width: 300px;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-image: url("assets/pfp4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.home_inner {
+    width: 50%;
+    padding: 10px;
+    background-color: #f8c8c8;
+    display: grid;
+    color: var(--text);
+    gap: 2px;
+    justify-content: center;
+    align-content: center;
+}
+
+.about_outer{
+    /* border-radius: 10px; */
+    height: 400px;
+    background-color: var(--secondary);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.head{
+    /*padding-top: 5px;
+    */
+    padding: 30px;
+    margin: 1px;
+    place-items: center;
+    display: grid;
+    gap: 5px;
+    font-family: 'Dancing Script', cursive;
+    width: 40%;
+    
+}
+.about_inner{
+    display: flex;
+    margin-top: 100px;
+    padding: 30px;
+    gap: 10px;
+    
+    justify-content: center;
+    align-items: center;
+}
+.education{
+    background-color: var(--secondary);
+    color: var(--text);
+    padding: 0px;
+}
+.skill{
+    background-color: var(--secondary);
+    height: auto;
+    padding: 0px;
+    gap: 30px;
+}
+.projects{
+    background-color: var(--accent);
+}
+.contact{
+    background-color: var(--secondary);
+    height: 400px;
+    display: grid;
+}
+.handles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.leetcode{
+    display: grid;
+    justify-content: center;
+}
+.leetcode  img{
+    width: 28px;
+    height: 28px;
+}
+.github img{
+    width: 28px;
+    height: 28px;
+}
