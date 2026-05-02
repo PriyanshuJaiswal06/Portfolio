@@ -2,6 +2,7 @@
     --bg: #fff6f6;
     --primary: #f8c8c8;
     --secondary: #f4a9a8;
+    /* --secondary: #d3968c; */
     --accent: #e5989b;
     --text: #4a3f3f;
 }
@@ -146,7 +147,7 @@ p {
 }
 .contact{
     background-color: var(--secondary);
-    height: 400px;
+    height: 200px;
     display: grid;
 }
 .handles{
